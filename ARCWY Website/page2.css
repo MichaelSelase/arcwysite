@@ -1,0 +1,30 @@
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: white;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #logo {
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px auto;
+            width: 80%;
+            line-height: 1.6;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 40px;
+        }
