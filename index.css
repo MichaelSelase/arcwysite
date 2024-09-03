@@ -4,24 +4,31 @@
             box-sizing: border-box;
         }
 
+        .logo{
+            text-align: center;
+
+        }
+
+
         body, html {
             font-family: Times New Roman, sans-serif;
             overflow-x: hidden;
         }
 
         header {
-            background: skyblue;
+            background: hsl(204, 100%, 50%);
             color: #fff;
             padding: 0.5rem 1rem;
-            display: flex;
+            text-align: center;
             justify-content: space-between;
-            align-items: center;
         }
 
         .nav-links {
             list-style: none;
             display: flex;
             align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
         }
 
         .nav-links li {
@@ -35,7 +42,9 @@
         }
 
         .nav-links a:hover {
-            color: #f4a261;
+            background-color: hsl(0, 0%, 0%);
+            color: hsl(0, 0%, 0%);
+            font-size:15px;
         }
 
         .burger {
@@ -54,7 +63,8 @@
 
         .hero {
             height: 80vh;
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('C:/Users/user/OneDrive/Desktop/ARCWY Website/arcwy1.png');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./images/arcwy1.png');
+            blur: 20px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: center;
@@ -63,7 +73,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            color: black;
+            color: hsl(0, 0%, 100%);
             text-align: center;
         }
 
@@ -127,13 +137,13 @@
 .navbar {
   overflow: hidden;
   background-color:lightblue;
-  font-family: Times-new roman;
+    font-family: Times-new roman, serif;
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-  color: skyblue;
+  color: hsl(47, 98%, 48%);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -156,7 +166,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: lightblue;
+  background-color: hsl(0, 0%, 0%);
 }
 
 .dropdown-content {
